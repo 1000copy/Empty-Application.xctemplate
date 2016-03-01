@@ -41,10 +41,10 @@ return YES;
 					<key>Definitions</key>
 					<dict>
 						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string>        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        // Override point for customization after application launch.
-        self.window!.rootViewController = UIViewController()
-        self.window!.backgroundColor = UIColor.whiteColor()</string>
+						<string>self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+// Override point for customization after application launch.
+self.window!.rootViewController = UIViewController()
+self.window!.backgroundColor = UIColor.whiteColor()</string>
 						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
 						<string>self.window!.makeKeyAndVisible()
 return true
